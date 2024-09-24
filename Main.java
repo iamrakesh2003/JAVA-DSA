@@ -472,19 +472,30 @@
 //     }
 // }
 
+// public class Main{
+//     public static void main(String[] args) {
+//         int a[]={1,2,3,4,5,7,8};
+//         int b[]={4,20,52,45,58,88,89};
+//         for(int i=1; i<a.length; i++){
+//             for(int j=0; j<a.length; j++){
+//                 if(a[i]==b[i])
+//                 System.out.println(a[i]);
+
+//             }
+        
+//         }
+
+        
+//   }
+//     }
+
+
 public class Main{
     public static void main(String[] args) {
-        int a[]={1,2,3,4,5,7,8};
-        int b[]={4,20,52,45,58,88,89};
-        for(int i=1; i<a.length; i++){
-            for(int j=0; j<a.length; j++){
-                if(a[i]==b[i])
-                System.out.println(a[i]);
-
-            }
-        
+        int a[]={1,2,3};
+        for(int i=0;i<a.length;i++)
+        {
+            System.out.print(a[i]+" ");
         }
-
-        
-  }
     }
+}
